@@ -6,9 +6,10 @@
 }
 
 
-.title {
+body h1{
+    flex: auto;
     box-sizing: border-box;
-    max-width: 30%;
+    max-width: 10em;
     text-align: center;
     text-decoration: dashed;
     border-color: black;
@@ -31,3 +32,20 @@ body form label{
     border-radius: 10px;
 }
 
+
+fieldset{
+    display: flex;
+    margin-top: 1.5em;
+    border-top: 1.5em;
+    border: none;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+fieldset legend details{
+    display: flex;
+    flex-direction: row;
+    
+}

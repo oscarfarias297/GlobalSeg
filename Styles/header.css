@@ -6,50 +6,48 @@
 header{
     display: flex;
     flex-direction: row;
-    flex-direction: row;
-    width: 100%;
+    max-width: 100%;
     background-color: #358211;
     justify-content: center;
 }
 
 header img{
-    padding: 10px 0px;
     max-width: 13em;
-    border-radius: 2em;
-    margin: right;
+    margin: 1em 2em;
 }
+
 
 header h1{
     
     -webkit-text-stroke: 1px black;
     color: transparent; 
-    padding: 50px 80px;
+    padding: 40px 70px;
     text-decoration: solid;
     border-top-color: black;
     color: #55ff00;
     text-transform: uppercase;
     text-align: center;
     font-size: 6vw;
-    transition: 3s;
+    transition: 2s;
 }
 
 header h1 :hover{
-    zoom: 2;
+    zoom: 1;
 }
 
 
 
-header nav details summary{
-    font-size: x-large;
-    margin: right;
-    padding: 20px;
+header nav details{
+    font-size: 40px;
+    margin-left: auto;
+    padding: 10px;
     align-self: flex-end;
     font-display: x;
-    padding-top: 2.5em;
+    padding-top: 1em;
     
 }
 
-header nav details summary li{
-    text-align: left;
 
+#desp-menu{
+    font-size: 20px;
 }
