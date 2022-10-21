@@ -1,12 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     display: flex;
     flex-direction: row;
-    margin: auto;
     flex-direction: row;
     width: 100%;
     background-color: #358211;
@@ -14,9 +13,10 @@ header{
 }
 
 header img{
-    padding: 10px;
-    width: 150px;
+    padding: 10px 0px;
+    max-width: 13em;
     border-radius: 2em;
+    margin: right;
 }
 
 header h1{
@@ -30,7 +30,14 @@ header h1{
     text-transform: uppercase;
     text-align: center;
     font-size: 6vw;
+    transition: 3s;
 }
+
+header h1: :hover{
+    zoom: 2;
+}
+
+
 
 header nav details summary{
     font-size: x-large;
@@ -38,6 +45,7 @@ header nav details summary{
     padding: 20px;
     align-self: flex-end;
     font-display: x;
+    padding-top: 2.5em;
     
 }
 

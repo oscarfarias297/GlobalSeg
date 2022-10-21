@@ -5,11 +5,18 @@
     justify-content: center;
 }
 
-body h1{
-    padding: 1em 2em;
+
+.title {
+    box-sizing: border-box;
+    max-width: 30%;
     text-align: center;
     text-decoration: dashed;
-    box-sizing: border-box;
+    border-color: black;
+    border-style: double;
+    border-width: 7px;
+    border-radius: 30px;
+    margin: auto;
+    padding: auto;
 }
 
 body form{
@@ -22,4 +29,8 @@ body form{
 body form label{
     padding: .3em;
     border-radius: 10px;
+}
+
+.date{
+    
 }
