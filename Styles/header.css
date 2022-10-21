@@ -33,7 +33,7 @@ header h1{
     transition: 3s;
 }
 
-header h1: :hover{
+header h1 :hover{
     zoom: 2;
 }
 
