@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="/Styles/form.css">
+
 
 </head>
 <header>
@@ -17,37 +19,62 @@
     </nav>
 </header>
 <body>
-    <section>
-        <h1>Formulario de Contacto</h1>
-    </section>
-    <section>
+
+        <h1>Registro</h1>
+
         <form action="">
-            <div>
-                <label form="name">Nombre</label>
-                <input type="text" id="name" placeholder="Nombre">
-            </div>
-            <br>
-            <div>
-                <label form="mail">Correo Electrónico</label>
-                <input type="email" id="mail" placeholder="Correo Electrónico">
-            </div>
-            
-            <fieldset>
-                <legend>Indique qué servicios esta interesado</legend>
-                <p>Seleccione al menos uno.</p>
-                <input type="checkbox" id="MedicionesPAT" name="news" value="mediciones">
-                <label form="MedicionesPAT">MedicionesPAT</label>
-                <input type="checkbox" id="Termografia" name="news" value="termograph">
-                <label form="Termografia">Termografía</label>
-                <input type="checkbox" id="tableros" name="news" value="tabler">
-                <label form="tableros">Tableros</label>
-                <br>
-                <br>
-                <button type="submit">ENVIAR</button>
-            </fieldset>
-
-
+                
+                    <label form="name">Nombre Completo</label>
+                    <input type="text" id="name" placeholder="Nombre Completo...">
+                
+                    <label form="usser">Nombre de Usuario</label>
+                    <input type="usser" id="usser" placeholder="Nombre de Usuario">
+                
+                    <label form="mail">Correo Electrónico</label>
+                    <input type="email" id="mail" placeholder="Correo Electrónico">
+                
+                        <label form="psw">Contraseña</label>
+                        <input type="password" id="psw" placeholder="Contraseña">
+                
+                    <label form="psw">Confirmar Contraseña</label>
+                    <input type="password" id="psw" placeholder="Confirmar Contraseña">
+                
+                    <label form="birth">Fecha de nacimiento</label>
+                    <input type="date" id="birth">
+                
+                    <label form="picture">Foto de Perfil</label>
+                    <input type="file" id="picture">
+                        
+                    <label form="pais" id="pais" placeholder="Pais">País</label>
+                    <select name="pais" id="pais">
+                        <option id="pais">Argentina</option>
+                        <option id="pais">Bolivia</option>
+                        <option id="pais">Chile</option>
+                        <option id="pais">Uruguay</option>
+                        <option id="pais">Paraguay</option>
+                        <option id="pais">Brasil</option>
+                    </select>
+                        
+                        <label form="tel" id="tel" placeholder="Telefono">Número de Telefono</label>
+                        <input type="number" id="tel">
+                    <div>
+                    <fieldset>
+                        <legend>Genero</legend>
+                        <input type="radio" id="MedicionesPAT" name="news" value="mediciones">
+                        <label form="MedicionesPAT">Masculino</label>
+                        <input type="radio" id="Termografia" name="news" value="termograph">
+                        <label form="Termografia">Femenino</label>
+                        <input type="radio" id="tableros" name="news" value="tabler">
+                        <label form="tableros">Otros</label>
+                    </fieldset>
+                    </div>
+                    
+                        <input required type="checkbox" name="term" id="term">
+                        <label form="term">Terminos y condiciones</label>
+                        
+                        <input type="checkbox" id="newsletter">
+                        <label form="newsletter">Suscribirse a Newsletter</label>
+                        <button type="submit">ENVIAR</button>
         </form>
-    </section>
 </body>
 </html>
