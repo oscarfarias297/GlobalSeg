@@ -1,4 +1,6 @@
 *{
+    padding: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -7,45 +9,50 @@
 
 
 body h1{
+    display: flex;
     flex: auto;
     box-sizing: border-box;
-    max-width: 10em;
+    max-width: 50%;
     text-align: center;
     text-decoration: dashed;
     border-color: black;
     border-style: double;
     border-width: 7px;
     border-radius: 30px;
-    margin: auto;
-    padding: auto;
 }
+
+
 
 body form{
     display: flex;
-    width: 80%;
     margin: auto;
-    padding: 1em;
+    width: 60%
 }
 
 body form label{
     padding: .3em;
     border-radius: 10px;
+    width: 100%;
 }
 
 
 fieldset{
     display: flex;
-    margin-top: 1.5em;
-    border-top: 1.5em;
-    border: none;
+    flex-direction: row;
+    margin-top: .5em;
+    border-top: .5em;
+    border: 1px solid black;
 }
 
 fieldset legend{
     text-align: center;
+    display: flex;
 }
 
-fieldset legend details{
-    display: flex;
-    flex-direction: row;
-    
+.submit-button{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    width: 5em;
+
 }

@@ -4,69 +4,80 @@
     <title>Maquetado HTML - Ícaro</title>
     <link rel="icon" href="/assets/BannerGS (copia).jpg" />
     <link rel="stylesheet" href="/Styles/header.css" />
-    <link rel="stylesheet" href="/Styles/main.css">
-    <link rel="stylesheet" href="/Styles/footer.css">
+    <link rel="stylesheet" href="/Styles/main.css" />
+    <link rel="stylesheet" href="/Styles/footer.css" />
   </head>
 
   <body>
-
     <header>
-      <img src="assets/Logo_Global_Seg.jpg" alt="Imagen Banner" />
-        <h1>Global Seg</h1>
-          <nav>
-            <details>
-              <summary>Menú</summary>
-              <li id="desp-menu">Inicio</li>
-              <li id="desp-menu"><a href="#products">Productos</a></li>
-              <li id="desp-menu"><a href="/menu/contacto.html">Registro</a></li>
-            </details>
-          </nav>
+      <img src="assets/GS_move.gif" alt="Imagen Banner" />
+      <h1>Global Seg</h1>
+      <nav>
+        <details>
+          <summary class="menuhead">Menú</summary>
+          <li id="desp-menu">INICIO</li>
+          <li id="desp-menu"><a href="/menu/services.html">SERVICIOS</a></li>
+          <li id="desp-menu"><a href="/menu/contacto.html">REGISTRO</a></li>
+        </details>
+      </nav>
     </header>
 
     <main>
+      <div class="man_desc">
+        <img
+          class="tools"
+          src="/assets/Man-job.png"
+          alt="Hombre_herramienta "/>
 
-      <article>
-        <h1>SERVICIOS DISPONIBLES</h1>
-        <section>
-          <br />
-          <h2><a href="products">Medición de Puesta a Tierra</a></h2>
-          <img src="assets/1666139153493.jpg" alt="Productos" width="150px" />
-          <img src="assets/1666139153481.jpg" alt="Productos2" width="150px" />
-          <p>
-            La forma básica y más sencilla de realizar la medición de la
-            resistencia de tierra utilizando el método técnico es el método de
-            tres polos (3p), donde el circuito de corriente y tensión se conecta
-            al sistema de puesta a tierra con un solo cable de prueba. Es
-            necesario utilizar dos sondas auxiliares.
-          </p>
-          <details>
-            <summary>Valor del producto:</summary>
-            <h3>$40.000</h3>
-          </details>
-        </section>
-        <section>
-          <h2>Termografías</h2>
-          <img src="assets/1664161572072.jpg" alt="termigrafia" width="150px" />
-          <p>
-            La termografía permite captar la radiación infrarroja del espectro
-            electromagnético utilizando cámaras térmicas. Con estas cámaras
-            convertimos la energía que irradia un objeto, invisible al ojo
-            humano, en una imagen visible formada a partir de la temperatura
-            superficial de los objetos captados por la cámara.
-          </p>
-          <details>
-            <summary>Valor del producto:</summary>
-            <h3>$20.000</h3>
-          </details>
-        </section>
-      </article>
+        <p class="description_job">
+          Somos una PYME dedicada al manenimiento electromecánico e higiene y
+          seguridad en el trabajo. Nuestra actividad se orienta principalmente a
+          la medición de puesta a tierra (PAT) y control de continuidad de las
+          masas, cumpliendo con el protocolo de resolución <label>
+          <a href="https://www.srt.gob.ar/wp-content/uploads/2014/03/images_pdf_Resolucion_900-15_Puesta_a_tierra.pdf"
+          target="_blank"  >900/2015</a> </label> de la Superintendencia de Riesgo del Trabajo.
+        </p>
+
+        <div class="formulario">
+          <img
+            class="logoregis"
+            src="/assets/Register.png"
+            alt="logo de registro"
+          />
+
+          <div class="form_reg">
+            <form action="">
+              <h2 class="regist">REGISTRO</h2>
+              
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Nombre Completo" />
+              
+              <label for="mail" id="mail">Correo Electrónico</label>
+              <input type="mail" placeholder="Correo Electrónico" />
+              
+              <label for="pass" id="pass">Contraseña</label>
+              <input type="password" id="psw" placeholder="Contraseña" />
+              
+              <label for="confirmPass" id="confPsw">Confirmar Contrasña</label>
+              <input type="password" placeholder="Confirmar Contraseña" />
+              
+              <div class="terms">
+              <p>Acepto los terminos y condiciones</p>
+              <input type="checkbox" id="terms">
+              </div>
+              
+              <button class="submit-button" type="submit">ENVIAR</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
 
-
     <footer>
-      <h4>Todos los Derechos Reservados - Global Seg</h4> 
+      <h4>Todos los Derechos Reservados - Global Seg</h4>
       <h4><strong>Creación y Contenido OF Webs</strong>&reg;</h4>
-      <br><br>
+      <br /><br />
     </footer>
   </body>
 </html>

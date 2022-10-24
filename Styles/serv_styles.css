@@ -1,0 +1,19 @@
+img.pat{
+    max-width: 13em;
+    margin: 1em 2em;
+}
+
+.services{
+    background-color: cornflowerblue;
+    padding-top: 40px;
+    text-align: center;
+    font-family: Fasthand;
+    font-size: 50px;
+    color: #fff;
+}
+
+.pat{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 30px;
+}

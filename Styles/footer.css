@@ -1,4 +1,12 @@
+footer{
+    background-color: #3d8361;
+    padding-top: 2em;
+    padding-bottom: 3em;
+
+}
+
 footer h4{
     text-align: center;
     justify-content: center;
+
 }
