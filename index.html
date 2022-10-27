@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Maquetado HTML - Ícaro</title>
+    <title>GLOBAL SEG - Ícaro</title>
     <link rel="icon" href="/assets/BannerGS (copia).jpg" />
-    <link rel="stylesheet" href="/Styles/header.css" />
+    <link rel="stylesheet" href="./Styles/header.css" />
     <link rel="stylesheet" href="/Styles/main.css" />
     <link rel="stylesheet" href="/Styles/footer.css" />
   </head>
@@ -30,7 +30,7 @@
           alt="Hombre_herramienta "/>
 
         <p class="description_job">
-          Somos una PYME dedicada al manenimiento electromecánico e higiene y
+          Somos una PYME dedicada al mantenimiento electromecánico e higiene y
           seguridad en el trabajo. Nuestra actividad se orienta principalmente a
           la medición de puesta a tierra (PAT) y control de continuidad de las
           masas, cumpliendo con el protocolo de resolución <label>
@@ -39,31 +39,27 @@
         </p>
 
         <div class="formulario">
-          <img
-            class="logoregis"
-            src="/assets/Register.png"
-            alt="logo de registro"
-          />
+          <img class="logoregis" src="/assets/Register.png" alt="logo de registro">
 
           <div class="form_reg">
             <form action="">
               <h2 class="regist">REGISTRO</h2>
               
               <label for="name">Nombre</label>
-              <input type="text" id="name" placeholder="Nombre Completo" />
+              <input type="text" id="name" name="name" placeholder="Nombre Completo" />
               
-              <label for="mail" id="mail">Correo Electrónico</label>
-              <input type="mail" placeholder="Correo Electrónico" />
+              <label for="mail">Correo Electrónico</label>
+              <input type="mail" id="mail" name="mail" placeholder="Correo Electrónico" />
               
-              <label for="pass" id="pass">Contraseña</label>
-              <input type="password" id="psw" placeholder="Contraseña" />
+              <label for="pass">Contraseña</label>
+              <input type="password" id="psw" name="pass" placeholder="Contraseña" />
               
-              <label for="confirmPass" id="confPsw">Confirmar Contrasña</label>
-              <input type="password" placeholder="Confirmar Contraseña" />
+              <label for="confirmPass">Confirmar Contrasña</label>
+              <input type="password" id="confPsw" name="confirmPass" placeholder="Confirmar Contraseña" />
               
               <div class="terms">
               <p>Acepto los terminos y condiciones</p>
-              <input type="checkbox" id="terms">
+              <input required type="checkbox" id="terms">
               </div>
               
               <button class="submit-button" type="submit">ENVIAR</button>
@@ -72,12 +68,19 @@
           </div>
         </div>
       </div>
+
     </main>
 
     <footer>
+
+      <br>
+      <h3 class="follow">Siguenos En...</h3>
+      <a href="https://www.facebook.com/carlitosdaniel666" target="_blank"><img class="redsocialimg" src="/assets/logoFacebook.png" alt="logo_facebook"></a>
+      <img class="redsocialimg" src="/assets/logoInsta.png" alt="logo_instagram">
+      <label><a href= "https://www.youtube.com/user/martinfierro297" target="_blank" ><img class="redsocialimg" src="/assets/logoYT.png" alt="logo_youtube"></a></label>
+
       <h4>Todos los Derechos Reservados - Global Seg</h4>
       <h4><strong>Creación y Contenido OF Webs</strong>&reg;</h4>
-      <br /><br />
     </footer>
   </body>
 </html>

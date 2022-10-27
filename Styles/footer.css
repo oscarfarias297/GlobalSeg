@@ -2,11 +2,30 @@ footer{
     background-color: #3d8361;
     padding-top: 2em;
     padding-bottom: 3em;
-
+    
 }
 
 footer h4{
+    flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+.follow{
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-bottom: 10px;
+    text-align: left;
+    
+}
+
+.redsocialimg{
+    padding-left: 2em;
+    width: 40px;
+    transition: 1s;
+}
+
+.redsocialimg:hover{
+    transform: scale(1);
 
 }

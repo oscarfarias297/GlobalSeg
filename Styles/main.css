@@ -11,7 +11,7 @@ main{
 
 .man_desc{
     display: flex;
-    text-align: left;
+    text-align: center;
     justify-content: space-evenly;
     color: #fff;
 }
@@ -30,13 +30,14 @@ main{
 }
 
 .logoregis{
-    margin-left:5em;
     width: 150px;
-    padding-right: 6em;
+    padding-bottom: 1em;
 }
 
 .form_reg{
+    font-size: 20px;
     margin-right: 5vw;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -58,3 +59,12 @@ main{
     text-align: left;
 
 }
+
+.submit-button{
+    padding: .5em;
+    font-size: 20px;
+}
+
+#reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid black; 
+    font: bold 1.5em dotum, "lucida sans", arial; text-align: center;
+    float: right; margin: 1em 3em 1em 1em; }
