@@ -26,16 +26,21 @@ main{
 }
 
 .tools{
-    width: 250px;
+    margin-right: 3em;
+    box-sizing: content-box;
+    width: 20%;
+
 }
 
 .logoregis{
     width: 150px;
     margin: .5em;
+    margin-bottom: 2px solid #fff;
     background-color: rgba(255,255,255,0.6);
     border-radius: 50px;
     justify-content: right;
     margin-right: 6em;
+
 }
 
 .form_reg{

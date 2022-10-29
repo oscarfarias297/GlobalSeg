@@ -59,8 +59,10 @@ header h1 :hover{
 
 
 #desp-menu{
+    color: #fff;
     display: flex;
     align-items: flex-start;
     padding-left: 50px;
     font-size: 20px;
+    text-decoration: none
 }
