@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios Dsponibles</title>
-    <link rel="icon" href="../assets/BannerGS (copia).jpg">
-    <link rel="stylesheet" href="../Styles/header.css">
-</head>
-<body>
-  <header>
-    <img src="../assets/GS_move.gif" alt="Imagen Banner" />
-    <h1>Global Seg</h1>
-    <nav>
-      <details>
-        <summary class="menuhead">Menú</summary>
-        <li id="desp-menu"><a href="../index.html"> INICIO</a></li>
-        <li id="desp-menu"><a href="../menu/services.html">SERVICIOS</a></li>
-        <li id="desp-menu"><a href="../menu/contacto.html">REGISTRO</a></li>
-      </details>
-    </nav>
-  </header>
+    <link rel="icon" href="../assets/BannerGS (copia).jpg" />
+    <link rel="stylesheet" href="../Styles/header.css" />
+    <link rel="stylesheet" href="../Styles/services.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../assets/GS_move.gif" alt="Imagen Banner" />
+      <h1>Global Seg</h1>
+      <nav>
+        <details>
+          <summary class="menuhead">Menú</summary>
+          <li id="desp-menu"><a href="../index.html"> INICIO</a></li>
+          <li id="desp-menu"><a href="../menu/services.html">SERVICIOS</a></li>
+          <li id="desp-menu"><a href="../menu/contacto.html">REGISTRO</a></li>
+        </details>
+      </nav>
+    </header>
 
-  <main>
-    <article>
-        <h1 class="services">SERVICIOS DISPONIBLES</h1>
-        <section>
-          <br />
-          <h2 class="pat"><a href="products">Medición de Puesta a Tierra</a></h2>
-          <img class="img_pat" src="../assets/1666139153493.jpg" alt="Productos" width="150px" />
-          <img class="img_pat" src="../assets/1666139153481.jpg" alt="Productos2" width="150px" />
-          <p>
+    <main>
+      <h1 class="services">Servicios Disponibles</h1>
+
+      <div class="container">
+       
+        <div class="card">
+          <div class="cardName">
+          <img class="img__" src="../assets/telurimet.jpg" width="200px" />
+          <h2 class="title2">Medición de Puesta a Tierra</h2>
+        </div>
+          <hr>
+          <p class="description">
             La forma básica y más sencilla de realizar la medición de la
             resistencia de tierra utilizando el método técnico es el método de
             tres polos (3p), donde el circuito de corriente y tensión se conecta
             al sistema de puesta a tierra con un solo cable de prueba. Es
             necesario utilizar dos sondas auxiliares.
           </p>
-          <details>
-            <summary>Valor del producto:</summary>
-            <h3>$40.000</h3>
-          </details>
-        </section>
-        <section>
-          <h2>Termografías</h2>
-          <img src="../assets/1664161572072.jpg" alt="termigrafia" width="150px" />
-          <p>
+          <button class="button">Más Info...</button>
+        </div>
+
+        <div class="card">
+          <div class="cardName">
+          <img class="img__" src="../assets/electric.jpg" width="200px" />
+          <h2 class="title2">Armado de Tableros Eléctricos</h2>
+        </div>
+          <hr>
+          <p class="description">
+            El tablero eléctrico general es el equipo donde llega todo el
+            conjunto de conductos eléctricos y tuberías, que salen desde la
+            parte del medidor. Desde allí se realiza la distribución a los
+            diferentes circuitos que mantienen con electricidad a todos los
+            demás elementos, como tomacorrientes, puntos de luz y timbres.
+          </p>
+          <button class="button">Más Info...</button>
+
+        </div>
+
+        <div class="card">
+          <div class="cardName">
+          <img class="img__" src="../assets/termograph.jpg" width="200px" />
+          <h2 class="title2">Termografía y sobretemperaturas</h2>
+          </div>
+          <hr>
+          <p class="description">
             La termografía permite captar la radiación infrarroja del espectro
             electromagnético utilizando cámaras térmicas. Con estas cámaras
             convertimos la energía que irradia un objeto, invisible al ojo
             humano, en una imagen visible formada a partir de la temperatura
             superficial de los objetos captados por la cámara.
           </p>
-          <details>
-            <summary>Valor del producto:</summary>
-            <h3>$20.000</h3>
-          </details>
-        </section>
-      </main>
-</body>
+          <button class="button">Más Info...</button>
+
+        </div>
+
+      </div>
+    </main>
+  </body>
 </html>
