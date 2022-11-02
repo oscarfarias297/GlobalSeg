@@ -11,10 +11,11 @@ main{
 
 .man_desc{
     display: flex;
-    text-align: center;
     justify-content: space-evenly;
     color: #fff;
 }
+
+
 
 .description_job{
     display: inline;
@@ -23,13 +24,28 @@ main{
     padding-right: 4em;
     margin-right: 4em;
     font-size: 2em;
+    text-align: center;
 }
 
 .tools{
-    margin-right: 3em;
-    box-sizing: content-box;
-    width: 20%;
+    padding-top: 4em;
+    padding-right: 1em;
+    padding-left: 4em;
+    width: 50vw;
+    height: 30vw;
+    box-sizing:content-box;
+    position: relative;
 
+
+}
+
+@media screen and (min-width: 500px){
+    .tools{
+        max-width:10%;
+    }
+    .description_jobs{
+        font-size: 1em;
+    }
 }
 
 .logoregis{
