@@ -18,12 +18,12 @@ main{
 
 
 .description_job{
-    display: inline;
+    display: inline-block;
     box-sizing: content-box;
     padding-top: 2.5em;
     padding-right: 4em;
-    margin-right: 4em;
-    font-size: 2em;
+    padding-left: 2em;
+    font-size: 2.1vw;
     text-align: center;
 }
 
@@ -31,20 +31,18 @@ main{
     padding-top: 4em;
     padding-right: 1em;
     padding-left: 4em;
-    width: 50vw;
+    width: 70vw;
     height: 30vw;
-    box-sizing:content-box;
     position: relative;
 
 
 }
 
 @media screen and (min-width: 500px){
-    .tools{
-        max-width:10%;
-    }
-    .description_jobs{
-        font-size: 1em;
+    main{
+        background-image: url("../assets/Background.jpg");
+        padding-bottom: 1em;
+        width: 100%;
     }
 }
 

@@ -25,7 +25,7 @@ header h1{
     padding: 40px 70px;
     text-decoration: solid;
     border-top-color: black;
-    color: #55ff00;
+    color: #55ff00b2;
     text-transform: uppercase;
     text-align: center;
     font-size: 6vw;
@@ -48,6 +48,7 @@ header h1 :hover{
     font-display: center;
     font-size: 2.5em;    
     transition: 2s;
+    text-decoration: none;
 }
 
 .menuhead:hover{
@@ -58,10 +59,11 @@ header h1 :hover{
 
 
 #desp-menu{
-    color: #fff;
     display: flex;
     align-items: flex-start;
     padding-left: 50px;
     font-size: 20px;
-    text-decoration: none
+    text-decoration: none;
+    color: #fff;
+
 }

@@ -1,6 +1,6 @@
 
 footer{
-    background-color: #3d8361;
+    background-image: linear-gradient( #3d8361, black);
     padding-top: 2em;
     padding-bottom: 3em;
     
@@ -8,14 +8,11 @@ footer{
 
 .siguenos{
     display: flex;
+    color: lightgreen;
+    text-shadow: black;
 }
 
-footer h4{
-    padding-top: 1em;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
+
 
 .follow{
     padding-left: 10px;
@@ -41,3 +38,11 @@ footer h4{
 }
 
 
+
+footer h4{
+    padding-top: 1em;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: cornsilk;
+}
